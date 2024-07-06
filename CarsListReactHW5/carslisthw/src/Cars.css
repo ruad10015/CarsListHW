@@ -1,0 +1,44 @@
+.Cars {
+  display: flex;
+}
+
+.left-panel,
+.right-panel {
+  box-shadow: 0 0 5px 3px black;
+  padding: 5px;
+  margin: 15px;
+}
+
+.left-panel {
+  flex: 1;
+}
+
+.right-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+}
+
+.car-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.car {
+  display: flex;
+  box-shadow: 0 0 3px 2px red;
+  margin: 5px;
+  padding: 5px;
+}
+
+.car img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.right-panel input,
+.right-panel button {
+  margin: 5px 0;
+}
